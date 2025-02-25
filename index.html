@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Leaks 16M - Setup no Termux 🚀</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        pre {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 Leaks 16M - Setup no Termux 🚀</h1>
+    <p>Bem-vindo ao <strong>Leaks 16M</strong>! Este é um script poderoso para hospedar bots diretamente no Termux. Ele suporta bots escritos em Python, Java, JavaScript (Node.js) e outras linguagens. Tudo o que você precisa fazer é copiar o código e configurar o ambiente! 🤖</p>
+
+    <h2>🎯 O que este script faz?</h2>
+    <ul>
+        <li>Hospeda bots em segundo plano usando <code>tmux</code>.</li>
+        <li>Suporta múltiplas linguagens: <strong>Python</strong>, <strong>Java</strong>, <strong>Node.js</strong> e mais!</li>
+        <li>Interface interativa com menus fáceis de usar.</li>
+        <li>Verifica se o arquivo do bot está correto antes de executar.</li>
+        <li>Gerencia bots (iniciar, parar, verificar status) de forma simples.</li>
+    </ul>
+
+    <h2>🛠️ Requisitos</h2>
+    <p>Antes de começar, você precisa ter:</p>
+    <ul>
+        <li><strong>Termux instalado</strong> (Google Play ou F-Droid).</li>
+        <li><strong>Conexão com a internet</strong> para instalar dependências.</li>
+    </ul>
+
+    <h2>⚙️ Como configurar?</h2>
+    <h3>Passo 1: Atualize os pacotes do Termux</h3>
+    <p>Abra o Termux e execute:</p>
+    <pre><code>pkg update && pkg upgrade</code></pre>
+
+    <h3>Passo 2: Instale as dependências</h3>
+    <p>Instale as ferramentas necessárias:</p>
+    <pre><code>pkg install dialog tmux python nodejs openjdk-17</code></pre>
+
+    <h3>Passo 3: Copie o código do script</h3>
+    <p>Crie um arquivo chamado <code>leaks16m.sh</code> no Termux:</p>
+    <pre><code>nano leaks16m.sh</code></pre>
+    <p>Cole o código abaixo no arquivo e salve (<code>Ctrl + O</code>, <code>Enter</code>, <code>Ctrl + X</code>):</p>
+    <pre><code>
+#!/bin/bash
+# [Seu código do script aqui]
+    </code></pre>
+
+    <h3>Passo 4: Torne o script executável</h3>
+    <p>Dê permissão de execução ao script:</p>
+    <pre><code>chmod +x leaks16m.sh</code></pre>
+
+    <h3>Passo 5: Execute o script</h3>
+    <p>Agora, execute o script:</p>
+    <pre><code>./leaks16m.sh</code></pre>
+
+    <h2>🎉 Pronto!</h2>
+    <p>Seu bot está configurado e pronto para uso! Compartilhe este site com seus amigos do Discord para ajudá-los a configurar também.</p>
+</body>
+</html>
